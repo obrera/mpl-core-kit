@@ -1,14 +1,4 @@
 import {
-  type AssetV1AccountData,
-  type CollectionV1AccountData,
-  type ExternalPluginAdaptersList,
-  externalRegistryRecordsToExternalPluginAdapterList,
-  getAssetV1AccountDataDecoder,
-  getCollectionV1AccountDataDecoder,
-  getPluginRegistryV1AccountDataDecoder,
-  registryRecordsToPluginsList,
-} from '@metaplex-foundation/mpl-core-kit'
-import {
   type Account,
   type Address,
   assertAccountExists,
@@ -17,6 +7,16 @@ import {
   fetchEncodedAccount,
   fetchEncodedAccounts,
 } from '@solana/kit'
+import {
+  type AssetV1AccountData,
+  type CollectionV1AccountData,
+  type ExternalPluginAdaptersList,
+  externalRegistryRecordsToExternalPluginAdapterList,
+  getAssetV1AccountDataDecoder,
+  getCollectionV1AccountDataDecoder,
+  getPluginRegistryV1AccountDataDecoder,
+  registryRecordsToPluginsList,
+} from 'mpl-core-kit-lib'
 
 import { type SolanaClient } from '@/solana/data-access/solana-client'
 

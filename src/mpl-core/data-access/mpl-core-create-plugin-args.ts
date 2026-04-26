@@ -1,3 +1,4 @@
+import { address } from '@solana/kit'
 import {
   type BaseExternalPluginAdapterInitInfoArgs,
   basePluginAuthority,
@@ -9,8 +10,7 @@ import {
   type PluginAuthorityPairArgs,
   type Seed,
   type ValidationResultsOffset,
-} from '@metaplex-foundation/mpl-core-kit'
-import { address } from '@solana/kit'
+} from 'mpl-core-kit-lib'
 
 import {
   type MplCoreCreateDraft,
