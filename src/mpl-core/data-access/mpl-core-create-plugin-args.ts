@@ -1,4 +1,3 @@
-import { address } from '@solana/kit'
 import {
   type BaseExternalPluginAdapterInitInfoArgs,
   basePluginAuthority,
@@ -10,7 +9,8 @@ import {
   type PluginAuthorityPairArgs,
   type Seed,
   type ValidationResultsOffset,
-} from 'mpl-core-kit-lib'
+} from '@obrera/mpl-core-kit-lib'
+import { address } from '@solana/kit'
 
 import {
   type MplCoreCreateDraft,
