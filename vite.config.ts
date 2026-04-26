@@ -13,7 +13,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
-      '@metaplex-foundation/mpl-core-kit': fileURLToPath(new URL('./lib', import.meta.url)),
+      'mpl-core-kit-lib': fileURLToPath(new URL('./node_modules/mpl-core-kit-lib/src', import.meta.url)),
     },
   },
 })

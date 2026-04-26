@@ -1,12 +1,19 @@
 {
   "files": [],
-  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@metaplex-foundation/mpl-core-kit": ["./lib/index.ts"],
-      "@metaplex-foundation/mpl-core-kit/*": ["./lib/*"]
+      "mpl-core-kit-lib": ["./node_modules/mpl-core-kit-lib/src/index.ts"],
+      "mpl-core-kit-lib/*": ["./node_modules/mpl-core-kit-lib/src/*"]
     }
   }
 }

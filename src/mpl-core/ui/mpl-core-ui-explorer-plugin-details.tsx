@@ -1,10 +1,10 @@
+import { PuzzleIcon } from 'lucide-react'
 import {
   type ExternalPluginAdaptersList,
   type PluginAuthority,
   type PluginsList,
   type UpdateAuthority,
-} from '@metaplex-foundation/mpl-core-kit'
-import { PuzzleIcon } from 'lucide-react'
+} from 'mpl-core-kit-lib'
 
 import { Badge } from '@/core/ui/badge'
 import { Empty, EmptyContent, EmptyHeader, EmptyMedia, EmptyTitle } from '@/core/ui/empty'

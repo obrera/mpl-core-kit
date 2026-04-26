@@ -1,9 +1,4 @@
 import {
-  fetchCollectionV1,
-  getCreateCollectionV2Instruction,
-  getCreateV2Instruction,
-} from '@metaplex-foundation/mpl-core-kit'
-import {
   type Address,
   address,
   appendTransactionMessageInstructions,
@@ -17,6 +12,7 @@ import {
   signAndSendTransactionMessageWithSigners,
   type TransactionSendingSigner,
 } from '@solana/kit'
+import { fetchCollectionV1, getCreateCollectionV2Instruction, getCreateV2Instruction } from 'mpl-core-kit-lib'
 
 import { type MplCoreCreateDraft } from '@/mpl-core/data-access/mpl-core-create-draft'
 import { getMplCoreCreatePluginArgs } from '@/mpl-core/data-access/mpl-core-create-plugin-args'
