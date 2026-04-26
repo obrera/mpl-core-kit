@@ -1,13 +1,4 @@
 import {
-  type Account,
-  type Address,
-  assertAccountExists,
-  assertAccountsExist,
-  decodeAccount,
-  fetchEncodedAccount,
-  fetchEncodedAccounts,
-} from '@solana/kit'
-import {
   type AssetV1AccountData,
   type CollectionV1AccountData,
   type ExternalPluginAdaptersList,
@@ -16,7 +7,16 @@ import {
   getCollectionV1AccountDataDecoder,
   getPluginRegistryV1AccountDataDecoder,
   registryRecordsToPluginsList,
-} from 'mpl-core-kit-lib'
+} from '@obrera/mpl-core-kit-lib'
+import {
+  type Account,
+  type Address,
+  assertAccountExists,
+  assertAccountsExist,
+  decodeAccount,
+  fetchEncodedAccount,
+  fetchEncodedAccounts,
+} from '@solana/kit'
 
 import { type SolanaClient } from '@/solana/data-access/solana-client'
 

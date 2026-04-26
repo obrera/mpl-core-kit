@@ -1,3 +1,4 @@
+import { fetchCollectionV1, getCreateCollectionV2Instruction, getCreateV2Instruction } from '@obrera/mpl-core-kit-lib'
 import {
   type Address,
   address,
@@ -12,7 +13,6 @@ import {
   signAndSendTransactionMessageWithSigners,
   type TransactionSendingSigner,
 } from '@solana/kit'
-import { fetchCollectionV1, getCreateCollectionV2Instruction, getCreateV2Instruction } from 'mpl-core-kit-lib'
 
 import { type MplCoreCreateDraft } from '@/mpl-core/data-access/mpl-core-create-draft'
 import { getMplCoreCreatePluginArgs } from '@/mpl-core/data-access/mpl-core-create-plugin-args'

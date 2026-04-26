@@ -1,5 +1,5 @@
+import { fetchAssetV1, fetchCollectionV1 } from '@obrera/mpl-core-kit-lib'
 import { address } from '@solana/kit'
-import { fetchAssetV1, fetchCollectionV1 } from 'mpl-core-kit-lib'
 
 import { type SolanaClient } from '@/solana/data-access/solana-client'
 

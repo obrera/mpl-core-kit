@@ -1,7 +1,7 @@
+import { fetchAssetsByCollection } from '@obrera/mpl-core-kit-lib'
 import { address } from '@solana/kit'
 import { useQuery } from '@tanstack/react-query'
 import { useWalletUi } from '@wallet-ui/react'
-import { fetchAssetsByCollection } from 'mpl-core-kit-lib'
 
 import { isValidAddress } from '@/mpl-core/data-access/mpl-core-create-draft'
 import { fetchMplCoreAssetRecords } from '@/mpl-core/data-access/mpl-core-explorer-records'
